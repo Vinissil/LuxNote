@@ -1,0 +1,12 @@
+/*GLOBAL*/
+@import './global/global.css';
+/*TYPOGRAPHY*/
+@import './utilities/typography.css';
+/*COLORS*/
+@import './utilities/colors.css';
+/*HEADER*/
+@import './global/header.css';
+/*HOME*/
+@import './home/intro.css';
+/*COMPONENTES*/
+@import './utilities/components.css';

@@ -1,0 +1,89 @@
+:root {
+    --blue_1: #000d1b;
+    --blue_2: #012954;
+    --blue_3: #004793;
+    --blue_4: #004c9c;
+    --blue_5: #0078FB;
+    --blue_6: #2D92FF;
+    --blue_7: #5DABFF;
+    --gold_1: #957C3D;
+    --gold_2: #76622F;
+    --gold_3: #594A23;
+    --gold_4: #4F4220;
+    --gold_5: #362C15;
+    --white: #FFFFFF;
+}
+/*BLUE*/
+
+.c_b_1 {
+    color: var(--blue_1);
+}
+.c_b_2 {
+    color: var(--blue_2);
+}
+.c_b_3 {
+    color: var(--blue_3);
+}
+.c_b_4 {
+    color: var(--blue_4);
+}
+.c_b_5 {
+    color: var(--blue_5);
+}
+.c_b_6 {
+    color: var(--blue_6);
+}
+.c_b_7 {
+    color: var(--blue_7);
+}
+
+/*GOLD*/
+
+.cg1 {
+    color: var(--gold_1);
+}
+.cg2 {
+    color: var(--gold_2);
+}
+.cg3 {
+    color: var(--gold_3);
+}
+.cg4 {
+    color: var(--gold_4);
+}
+.cg5 {
+    color: var(--gold_5);
+}
+
+/*WHITE*/
+
+.c_w {
+    color: var(--white);
+}
+
+/*BACKGROUND COLORS 1*/
+
+.bg_c-2 {
+    background: #00152c;
+}
+
+/*COLOR P*/
+.c_p {
+    color: var(--blue_7);
+}
+
+/*SPAN COLOR*/
+
+.sc {
+    color: var(--gold_3);
+}
+
+/*GRADIENT-BUTTONS*/
+
+.g_b {
+    background: linear-gradient(var(--blue_5) , var(--blue_7));
+}
+
+.g_bg:hover {
+    background: linear-gradient(var(--blue_2) , var(--blue_4));
+}
