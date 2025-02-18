@@ -1,5 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font_poppins: "Poppins", serif;
+    --font_roboto: "Roboto", serif;
+    --blue_1: #002349;
+    --blue_2: #003E81;
+    --blue_3: #0052AB;
+    --blue_4: #0052AB;
+    --blue_5: #0078FB;
+    --blue_6: #2D92FF;
+    --blue_7: #5DABFF;
+    --gold_1: #957C3D;
+    --gold_2: #76622F;
+    --gold_3: #594A23;
+    --gold_4: #4F4220;
+    --gold_5: #362C15;
+    --white: #FFFFFF;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+ul {
+    margin: 0;
+    padding: 0 ;
+}
+
+a, ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.title a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--font_poppins);
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.header-bg {
+    background-color: var(--blue_1);
+}
+
+.header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.header-menu a {
+    padding: 16px 0;
+    display: inline-block;
+    color: var(--white);
+    font-family: var(--font_poppins);
+    font-size: 1.25rem;
+    line-height: 32px;
+    position: relative;
+}
+
+.header-menu a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: var(--white);
+    margin-top: 4px;
+    position: absolute;
+}
+
+.header-menu a:hover:after {
+    width: 100%;
+    transition: 0.3s;
+}
+
+
+@media (max-width: 800px) {
+    .header-menu {
+        gap: 20px;
+    }
+    .header-menu a {
+        background: #003E81;
+        padding: 12px 16px;
+        border-radius: 10px;
+    }
+    .header-menu a:hover {
+        background: var(--blue_3);
+    }
+    .header a:after {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-menu {
+        gap: 12px;
+    }
+    .header-menu a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .header-menu a:hover {
+        background: var(--blue_3);
+    } 
+    .header a:after {
+        display: none;
+    }
+}
+
