@@ -15,25 +15,25 @@
 }
 /*BLUE*/
 
-.c_b_1 {
+.c-b-1 {
     color: var(--blue_1);
 }
-.c_b_2 {
+.c-b-2 {
     color: var(--blue_2);
 }
-.c_b_3 {
+.c-b-3 {
     color: var(--blue_3);
 }
-.c_b_4 {
+.c-b-4 {
     color: var(--blue_4);
 }
-.c_b_5 {
+.c-b-5 {
     color: var(--blue_5);
 }
-.c_b_6 {
+.c-b-6 {
     color: var(--blue_6);
 }
-.c_b_7 {
+.c-b-7 {
     color: var(--blue_7);
 }
 
@@ -68,7 +68,7 @@
 }
 
 /*COLOR P*/
-.c_p {
+.c-p {
     color: var(--blue_7);
 }
 

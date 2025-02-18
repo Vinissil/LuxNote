@@ -1,0 +1,9 @@
+.tech-bg {
+    background-color: var(--blue_1);
+}
+
+.tech {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}

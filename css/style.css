@@ -10,3 +10,7 @@
 @import './home/intro.css';
 /*COMPONENTES*/
 @import './utilities/components.css';
+/*LAPTOPLIST*/
+@import './laptop/laptopList.css';
+/*TECH*/
+@import './home/tech.css';
