@@ -63,4 +63,9 @@
     .laptop-list ul {
         gap: 20px;
     }
+
+    .laptop-list img {
+        width: 300px;
+        height: 350px;
+    }
 }
