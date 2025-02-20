@@ -1,18 +1,31 @@
 /*GLOBAL*/
 @import './global/global.css';
+
 /*TYPOGRAPHY*/
 @import './utilities/typography.css';
+
 /*COLORS*/
 @import './utilities/colors.css';
+
 /*HEADER*/
 @import './global/header.css';
+/*FOOTER*/
+@import './global/footer.css';
+
 /*HOME*/
-@import './home/intro.css';
-/*COMPONENTES*/
-@import './utilities/components.css';
-/*LAPTOPLIST*/
-@import './laptop/laptopList.css';
-/*TECH*/
-@import './home/tech.css';
-/*PARTNERS*/
-@import './home/partners.css';
+    @import './home/intro.css';
+    /*COMPONENTES*/
+    @import './utilities/components.css';
+    /*LAPTOPLIST*/
+    @import './laptop/laptopList.css';
+    /*TECH*/
+    @import './home/tech.css';
+    /*PARTNERS*/
+    @import './home/partners.css';
+    /*TESTIMONY*/
+    @import './home/testimony.css';
+    /*INSURANCE*/
+    @import './home/insurance.css';
+
+/*TERMS*/
+@import './terms/terms.css'

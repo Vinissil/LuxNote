@@ -16,6 +16,15 @@
     font-size: 18px;
     font: 600 1.125rem/1.35 var(--font_poppins);
     display: inline-block;
+    max-width: max-content;
+}
+
+.button.secondary:hover {
+    background-color: rgb(129, 126, 126);
+}
+
+.button.secondary2:hover {
+    background-color: rgb(169, 140, 13);
 }
 
 .link {
@@ -41,5 +50,29 @@
     .button {
         padding: 12px 16px;
         font-size: 1rem;
+    }
+}
+
+/*  Internal title*/
+
+.title-bg {
+    background-color: var(--blue_1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .title-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .title p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
     }
 }

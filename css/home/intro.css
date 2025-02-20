@@ -39,6 +39,8 @@
         background:#001a37;
     }
     .intro {
+        padding-top: 50px;
+        padding-bottom: 50px;
         grid-template-columns: 1fr;
         gap: 32px;
     }
@@ -49,8 +51,6 @@
         margin-bottom: 16px;
     }
     .intro img {
-        height: 300px;
-        width: 100%;
+        display: none;
     }
 }
-
