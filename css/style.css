@@ -28,4 +28,7 @@
     @import './home/insurance.css';
 
 /*TERMS*/
-@import './terms/terms.css'
+@import './terms/terms.css';
+
+/*LAPTOP PAGE*/
+@import './laptop/laptops.css';
