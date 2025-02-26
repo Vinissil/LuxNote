@@ -16,12 +16,18 @@
     --silver: #C0C0C0;
     --realgold: #FFD700;
     --color_faq: #d3e7fb;
+    --black: #000000;
 }
 
 /*REALGOLD*/
 
 .c-r-g {
     color: var(--realgold);
+}
+
+/*BLACK*/
+.b {
+    color: var(--black);
 }
 
 /*SILVER*/

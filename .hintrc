@@ -8,6 +8,8 @@
       {
         "label": "off"
       }
-    ]
+    ],
+    "button-type": "off",
+    "axe/structure": "off"
   }
 }
