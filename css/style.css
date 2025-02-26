@@ -1,16 +1,16 @@
 /*GLOBAL*/
-@import './global/global.css';
+    @import './global/global.css';
 
 /*TYPOGRAPHY*/
-@import './utilities/typography.css';
+    @import './utilities/typography.css';
 
 /*COLORS*/
-@import './utilities/colors.css';
+    @import './utilities/colors.css';
 
 /*HEADER*/
-@import './global/header.css';
+    @import './global/header.css';
 /*FOOTER*/
-@import './global/footer.css';
+    @import './global/footer.css';
 
 /*HOME*/
     @import './home/intro.css';
@@ -28,10 +28,15 @@
     @import './home/insurance.css';
 
 /*TERMS*/
-@import './terms/terms.css';
+    @import './terms/terms.css';
 
 /*LAPTOP PAGE*/
-@import './laptop/laptops.css';
+    @import './laptop/laptops.css';
 
 /*INSURANCE*/
-@import './insurance/insurance.css';
+    @import './insurance/insurance.css';
+    @import 'insurance/advantage.css';
+    @import 'insurance/question.css';
+
+/*LAPTOP_2*/
+    @import '../css/laptop_2/silver.css';
