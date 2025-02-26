@@ -7,6 +7,9 @@
 /*COLORS*/
     @import './utilities/colors.css';
 
+/*FORMS*/
+    @import './utilities/forms.css';
+
 /*HEADER*/
     @import './global/header.css';
 /*FOOTER*/
@@ -41,3 +44,7 @@
 /*LAPTOP_2*/
     @import '../css/laptop_2/silver.css';
     @import '../css/laptop_2/laptopinsurance.css';
+
+/*CONTACTS*/
+    @import '../css/contact/contact.css';
+    @import './contact/store.css';
