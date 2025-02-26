@@ -1,0 +1,47 @@
+.insurance-background {
+    background-color: var(--blue_max);
+    box-shadow: inset 0 120px var(--white), inset 0 -120px var(--blue_max);
+}
+
+.insurance_cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.insurance_cont-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.insurance_cont_2 {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.insurance_cont h2 {
+    margin-bottom: 32px;
+}
+
+.insurance_cont p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .insurance-background {
+        box-shadow: inset 0 -60px var(--blue_max);
+    }
+    .insurance_cont-img img {
+        width: 500px;
+        height: 500px;
+    }
+    .insurance_cont {
+        grid-template-columns: 1fr;
+    }
+    .insurance_cont_2 {
+        grid-row: 1;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+}

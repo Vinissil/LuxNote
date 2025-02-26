@@ -101,6 +101,8 @@
     color: var(--blue_7);
 }
 
+
+
 @media (max-width: 800px) {
     .laptop {
         grid-template-columns: 1fr;
