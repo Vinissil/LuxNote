@@ -5,6 +5,7 @@
 .budget {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 32px;
 }
 
 .budget h2 {
@@ -119,4 +120,53 @@
 #insurance:checked ~ #budget-insurance {
     display: grid;
     gap: 20px;
+}
+
+.budget-details {
+    background: var(--blue_5);
+    display: none;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.budget-product input:checked + label + .budget-details {
+    display: grid;
+}
+
+.budget-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.budget-details li img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+@media (max-width: 1200px) {
+    .budget-product,
+    .budget-data {
+        padding: 32px;
+    }
+}
+
+@media (max-width: 800px) {
+    .budget {
+        grid-template-columns: 1fr;
+    }
+    .budget-data {
+        border-radius: 0 0 5px 5px;
+    }
+    .budget-product {
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .budget-product {
+        grid-template-columns: 1fr;
+    }
 }
